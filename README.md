@@ -25,3 +25,5 @@ python -m unittest discover -s tests -v
 ```
 
 Para probar el despliegue, define `ARQUI_TEST_URL` con la URL de la web. Las pruebas verifican los controles de caché, FIFO, reinicio de coherencia y renderizado de fórmulas al recalcular.
+
+La revisión completa contiene 23 pruebas de navegador: recorre las 24 lecciones, los 16 ejercicios y las 96 preguntas, y comprueba los cinco simuladores, temporizadores, navegación, marcadores, flashcards, búsqueda, copia, impresión, modo móvil y almacenamiento bloqueado.
