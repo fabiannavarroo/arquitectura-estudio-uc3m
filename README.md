@@ -26,4 +26,8 @@ python -m unittest discover -s tests -v
 
 Para probar el despliegue, define `ARQUI_TEST_URL` con la URL de la web. Las pruebas verifican los controles de caché, FIFO, reinicio de coherencia y renderizado de fórmulas al recalcular.
 
-La revisión completa contiene 23 pruebas de navegador: recorre las 24 lecciones, los 16 ejercicios y las 96 preguntas, y comprueba los cinco simuladores, temporizadores, navegación, marcadores, flashcards, búsqueda, copia, impresión, modo móvil y almacenamiento bloqueado.
+La revisión completa contiene 30 pruebas de navegador: recorre las 24 lecciones, los 16 ejercicios y las 96 preguntas, y comprueba los cinco simuladores, temporizadores, navegación, marcadores, flashcards, búsqueda, copia, impresión, modo móvil y almacenamiento bloqueado.
+
+## Flashcards disponibles siempre
+
+«Todas las tarjetas» permite repasar las 96 tarjetas, incluidas las dominadas, sin esperar a su próxima revisión. Pulsa la tarjeta o «Ver respuesta» para girarla; puedes volver a la pregunta, avanzar, retroceder y repetir la vuelta. El filtro por tema también funciona en este modo. «Pendientes de hoy» mantiene la programación del repaso espaciado.

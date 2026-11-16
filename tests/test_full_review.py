@@ -141,7 +141,7 @@ class FullReview(unittest.TestCase):
         self.assertFalse(self.page.locator('dialog').is_visible())
 
     def test_flashcard_controls_and_scheduling(self):
-        self.open('address');self.go('cards')
+        self.open('address');self.go('cards');self.click('flashMode:due')
         self.page.locator('#flashTopic').select_option('t37');self.page.wait_for_timeout(30)
         first=self.page.evaluate('flashId');self.click('flashFlip');self.click('flashGrade:again')
         self.assertEqual(self.page.evaluate('(id)=>state.cards[id].box',first),0)
